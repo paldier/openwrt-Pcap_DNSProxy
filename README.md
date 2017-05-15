@@ -1,3 +1,7 @@
+
+以下为wongsyrone原项目介绍供参考
+
+
 Pcap_DNSProxy for OpenWrt/LEDE
 ===
 

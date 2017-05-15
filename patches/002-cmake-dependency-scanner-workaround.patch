@@ -18,29 +18,4 @@
  #endif
  
  //Windows API headers
-@@ -531,7 +531,7 @@
- #ifndef SODIUM_STATIC
- 	#define SODIUM_STATIC
- #endif
--	#include "../Dependency/LibSodium/sodium.h"
-+	#include "LibSodium/sodium.h"
- 	#pragma comment(lib, "../Dependency/LibSodium/LibSodium_macOS.a")
- #else
- #if defined(ENABLE_LIBSODIUM)
-@@ -557,11 +557,11 @@
- #ifndef ENABLE_TLS
- 	#define ENABLE_TLS
- #endif
--	#include "../Dependency/OpenSSL/openssl/bio.h"
--	#include "../Dependency/OpenSSL/openssl/conf.h"
--	#include "../Dependency/OpenSSL/openssl/err.h"
--	#include "../Dependency/OpenSSL/openssl/ssl.h"
--	#include "../Dependency/OpenSSL/openssl/x509v3.h"
-+	#include "OpenSSL/openssl/bio.h"
-+	#include "OpenSSL/openssl/conf.h"
-+	#include "OpenSSL/openssl/err.h"
-+	#include "OpenSSL/openssl/ssl.h"
-+	#include "OpenSSL/openssl/x509v3.h"
- 	#pragma comment(lib, "../Dependency/OpenSSL/LibCrypto_macOS.a")
- 	#pragma comment(lib, "../Dependency/OpenSSL/LibSSL_macOS.a")
- #else
+
