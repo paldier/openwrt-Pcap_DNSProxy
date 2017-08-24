@@ -47,7 +47,7 @@ if PACKAGE_pcap-dnsproxy
 		  We strongly recommend to keep it as-is.
 	config PACKAGE_pcap-dnsproxy_libsodium
 		bool "Build with libsodium support.(Recommended)"
-		default y
+		default n
 		help
 		  LibSodium is for DNSCurve/DNSCrypt protocol support.
 
