@@ -1,10 +1,11 @@
 -- a/Source/Pcap_DNSProxy/Platform.h
 +++ b/Source/Pcap_DNSProxy/Platform.h
-@@ -362,6 +362,7 @@
- #include <regex>                   //Regular expression support
- #include <set>                     //Set support
+@@ -361,7 +361,8 @@
+ #include <regex>                   //Regular expressions are a standardized way to express patterns to be matched against sequences of characters support
  #include <thread>                  //Thread support
 +#include <functional>
- 
+ #include <unordered_map>           //Unordered_map and unordered_multimap container support
+ #include <unordered_set>           //Unordered_set and unordered_multiset container support
+
  #if defined(PLATFORM_WIN)
  //LibSodium header, always enabled(Windows)
